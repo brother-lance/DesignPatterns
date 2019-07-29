@@ -11,5 +11,10 @@ public class StartCls {
     public static void main(String[] args) throws Exception {
         TVFactory factory = new TVFactory();
         factory.produceTV("haier");
+
+        /**** 第一种方法获取 ********/
+        String barnchName = XMLUtilTV.getBranchName();
+        TV tv = factory.produceTV(barnchName);
+        System.out.println("tv:" + tv);
     }
 }

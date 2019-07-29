@@ -16,7 +16,10 @@ public class TVFactory {
         } else if ("hisense".equalsIgnoreCase(brand)) {
             System.out.println("电视机工厂生产了海信电视机");
             return new HaierTV();
-        } else {
+        } else if ("tcl".equalsIgnoreCase(brand)) {
+            System.out.println("电视机工厂生产了TCL电视机");
+            return new HaierTV();
+        }else {
             throw new Exception("对不起，暂时不能生产该产品的电视机");
         }
     }
