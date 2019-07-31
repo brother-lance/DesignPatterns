@@ -28,9 +28,9 @@ public class RSAEncrypt extends Encrypt {
 
     public void init() {
         try {
-            KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
+            KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");  // 单例
             keyPairGenerator.initialize(1024, new SecureRandom());
-            KeyPair keyPair = keyPairGenerator.generateKeyPair();
+            KeyPair keyPair = keyPairGenerator.generateKeyPair();  // 构建密钥对像
             PublicKey aPublic = keyPair.getPublic();
             PrivateKey aPrivate = keyPair.getPrivate();
             publicKey = new String(encoder(aPublic.getEncoded()));
