@@ -6,9 +6,9 @@ import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;
 import java.io.UnsupportedEncodingException;
 import java.security.InvalidKeyException;
+import java.security.Key;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
-import java.security.Security;
 
 /**
  * 项目名称：DesignPatterns
@@ -22,7 +22,7 @@ public class AESEncrypt extends Encrypt {
 
     private static final String EncryptAlg = "AES";
 
-    private static final String Cipher_Mode = "AES/ECB/PKCS7Padding";
+    private static final String Cipher_Mode = "AES/ECB/PKCS5Padding";
 
     private static final String Encode = "UTF-8";
 
@@ -30,79 +30,68 @@ public class AESEncrypt extends Encrypt {
 
     private static final String Key_Encode = "UTF-8";
 
-    private static final String key = "A1B2C3D4E5F6G7H8A1B2C3D4E5F6G7H8";
+    private Key key;
 
+
+    public AESEncrypt() {
+        this.init();
+    }
+
+    public void init() {
+        key = createKey();
+    }
 
     @Override
     public String encrypt(String content) {
-
         try {
-            KeyGenerator kgen = KeyGenerator.getInstance(EncryptAlg);// 创建AES的Key生产者
-
-            kgen.init(Secret_Key_Size, new SecureRandom(key.getBytes()));// 利用用户密码作为随机数初始化出
-            // 128位的key生产者
-            //加密没关系，SecureRandom是生成安全随机数序列，password.getBytes()是种子，只要种子相同，序列就一样，所以解密只要有password就行
-
-            SecretKey secretKey = kgen.generateKey();// 根据用户密码，生成一个密钥
-
-            byte[] enCodeFormat = secretKey.getEncoded();// 返回基本编码格式的密钥，如果此密钥不支持编码，则返回
-            // null。
-
-            SecretKeySpec key = new SecretKeySpec(enCodeFormat, EncryptAlg);// 转换为AES专用密钥
-
-            Cipher cipher = Cipher.getInstance(EncryptAlg);// 创建密码器
-
-            byte[] byteContent = content.getBytes(Encode);
-
-            cipher.init(Cipher.ENCRYPT_MODE, key);// 初始化为加密模式的密码器
-
-            byte[] result = cipher.doFinal(Base64Util.encoder(byteContent));// 加密
-
-            return new String(result);
-
-        } catch (NoSuchPaddingException e) {
+            Cipher cipher = Cipher.getInstance(Cipher_Mode);
+            cipher.init(cipher.ENCRYPT_MODE, key);
+            //将加密并编码后的内容解码成字节数组
+            byte[] result = cipher.doFinal(content.getBytes());
+            return new String(Base64Util.encoder(result));
+        } catch (Exception e) {
             e.printStackTrace();
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (InvalidKeyException e) {
-            e.printStackTrace();
-        } catch (IllegalBlockSizeException e) {
-            e.printStackTrace();
-        } catch (BadPaddingException e) {
-            e.printStackTrace();
+            return null;
         }
-        return null;
 
-        // return doFinal(Cipher.ENCRYPT_MODE, content);
     }
 
     @Override
     public String decrypt(String content) {
         try {
-            KeyGenerator kgen = KeyGenerator.getInstance(EncryptAlg);// 创建AES的Key生产者
-            kgen.init(Secret_Key_Size, new SecureRandom(key.getBytes()));
-            SecretKey secretKey = kgen.generateKey();// 根据用户密码，生成一个密钥
-            byte[] enCodeFormat = secretKey.getEncoded();// 返回基本编码格式的密钥
-            SecretKeySpec key = new SecretKeySpec(enCodeFormat, EncryptAlg);// 转换为AES专用密钥
-            Cipher cipher = Cipher.getInstance(EncryptAlg);// 创建密码器
-            cipher.init(Cipher.DECRYPT_MODE, key);// 初始化为解密模式的密码器
+            Cipher cipher = Cipher.getInstance(Cipher_Mode);
+            cipher.init(cipher.DECRYPT_MODE, key);
+            //将加密并编码后的内容解码成字节数组
             byte[] result = cipher.doFinal(Base64Util.decoder(content.getBytes()));
-            return new String(result); // 明文
+            return new String(result);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public Key createKey() {
+        try {
+            // 生成key
+            KeyGenerator keyGenerator;
+            //构造密钥生成器，指定为AES算法,不区分大小写
+            keyGenerator = KeyGenerator.getInstance(EncryptAlg);
+            //生成一个128位的随机源,根据传入的字节数组
+            keyGenerator.init(128);
+            //产生原始对称密钥
+            SecretKey secretKey = keyGenerator.generateKey();
+            //获得原始对称密钥的字节数组
+            byte[] keyBytes = secretKey.getEncoded();
+            // key转换,根据字节数组生成AES密钥
+            Key key = new SecretKeySpec(keyBytes, EncryptAlg);
+            return key;
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
-        } catch (NoSuchPaddingException e) {
-            e.printStackTrace();
-        } catch (InvalidKeyException e) {
-            e.printStackTrace();
-        } catch (IllegalBlockSizeException e) {
-            e.printStackTrace();
-        } catch (BadPaddingException e) {
-            e.printStackTrace();
+            return null;
         }
-        return null;
+
     }
+
 
 //    private String doFinal(int cipherType, String content) {
 //        Security.addProvider(new BouncyCastleProvider());
