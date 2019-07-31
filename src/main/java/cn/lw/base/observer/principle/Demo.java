@@ -1,4 +1,4 @@
-package cn.lw.base.observer;
+package cn.lw.base.observer.principle;
 
 /**
  * 项目名称：DesignModel

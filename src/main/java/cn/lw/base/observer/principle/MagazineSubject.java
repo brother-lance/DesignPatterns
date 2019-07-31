@@ -1,4 +1,4 @@
-package cn.lw.base.observer;
+package cn.lw.base.observer.principle;
 
 import java.util.ArrayList;
 import java.util.List;
