@@ -1,14 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f38b09a-cffc-4603-9761-c0c37c0b77f3" name="Default Changelist" comment="">
+    <list default="true" id="5f38b09a-cffc-4603-9761-c0c37c0b77f3" name="Default Changelist" comment="设计模式案例">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/AbstractList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/AbstractSequentialList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WListIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WListStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/ConcreteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/ConcreteProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/DatabaseLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/DatabaseLogFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/FileLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/FileLogFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/LogFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CashFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CashPayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CreditCardFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CreditCardPayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/PayFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/PayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/VoucherFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/VoucherPayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/BallFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/Basketball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/BasketballFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/Football.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/FootballFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/util/XmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/abstractFactory/config_ball.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/abstractFactory/config_log.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/abstractFactory/config_pay.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/AbstractVerifySubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/AbstractVerifySubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/EnvCheckObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/EnvCheckObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/CustomerObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/CustomerObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/MagazineSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/MagazineSubject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,79 +54,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/Demo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WListIterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/AbstractVerifySubject.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/EnvCheckObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/MFastFood.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/AbstractList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="35" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/AbstractSequentialList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WListStr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding>
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/Observer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/Subject.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/CustomerObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/MagazineSubject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="194">
+              <caret line="91" column="29" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="29" />
+              <folding>
+                <element signature="e#20484#20485#0" expanded="true" />
+                <element signature="e#20520#20521#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,6 +174,13 @@
       <find>saveEditReplise()</find>
       <find>&quot;RSA&quot;</find>
       <find>subject</find>
+      <find>modCount</find>
+      <find>is</find>
+      <find>iterator</find>
+      <find>unlinkLast</find>
+      <find>add</find>
+      <find>pre</find>
+      <find>prev</find>
     </findStrings>
     <replaceStrings>
       <replace>EncryptAlg</replace>
@@ -124,57 +192,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/TV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/tv/TV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/tv/HaierTV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/tv/HisenseTV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/tv/configTV.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/tv/StartCls.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/configTV.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/tv/XMLUtilTV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/tv/TCLTV.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/tv/TVFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/configTV.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/authorityManage/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/authorityManage/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/authorityManage/Manager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/authorityManage/Adminstrator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/authorityManage/UserFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/authorityManage/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/authorityManage/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/human/Human.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/human/Man.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/human/Woman.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/human/Robot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/human/NuWa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/human/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/Shape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/Square.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/configShape.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/Ttriangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/ShapeFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/Circle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/Encrypt.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/configEncrypt.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/Base64Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/EncryptFactory.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/AESEncrypt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/RSAEncrypt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/Observer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/patterns.md" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/FastFood.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/MFastFood.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/KFCFastFood.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/BeautifulGril.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/CustomerObserver.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/MagazineSubject.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/AbstractVerifySubject.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/EnvCheckObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/ConcreteFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/ConcreteProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/PayFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/PayType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CashPayType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CreditCardPayType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/VoucherPayType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CreditCardFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/VoucherFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CashFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/config/config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/TV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/HaierTV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/BasketBall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/Football.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/XmlUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/TVFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/BallFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/BasketBallFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/abstractFactory/config_ball.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/BasketballFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/FootballFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/DatabaseLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/FileLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/LogFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/FileLogFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/DatabaseLogFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/abstractFactory/config_log.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/util/XmlUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/ListIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/AbstractSequentialList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WCollection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/AbstractList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WListIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WListStr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/Demo.java" />
       </list>
     </option>
   </component>
@@ -221,7 +289,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -263,7 +330,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -272,18 +339,28 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
-              <item name="principle" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -297,6 +374,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,19 +390,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/role" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/abstractFactory" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.lw.base.abstractFactory.log" />
+      <recent name="cn.lw.base.abstractFactory.tv" />
       <recent name="cn.lw.base.factory.authorityManage" />
       <recent name="cn.lw.base.factory.tv" />
       <recent name="cn.lw.base.factory.frurits" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/main/resources/config" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/abstractFactory" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/cn/lw/base/observer/role" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -339,39 +421,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo (3)">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lw.base.factory.authorityManage.Client" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lw.base.factory.authorityManage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Demo (1)">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lw.base.factory.shape.Demo" />
+      <option name="MAIN_CLASS_NAME" value="cn.lw.base.abstractFactory.collection.Demo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lw.base.factory.shape.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lw.base.factory.encrypt.Demo" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lw.base.factory.encrypt.*" />
+          <option name="PATTERN" value="cn.lw.base.abstractFactory.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,12 +448,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lw.base.factory.human.Demo" />
+    <configuration name="Demo (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lw.base.abstractFactory.example.Demo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lw.base.factory.human.*" />
+          <option name="PATTERN" value="cn.lw.base.abstractFactory.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lw.base.abstractFactory.tv.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lw.base.abstractFactory.tv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lw.base.abstractFactory.log.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lw.base.abstractFactory.log.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,11 +489,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo (3)" />
-        <item itemvalue="Application.Demo (2)" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Demo (5)" />
+        <item itemvalue="Application.Demo (5)" />
+        <item itemvalue="Application.Demo (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +521,9 @@
       <workItem from="1564486796810" duration="3352000" />
       <workItem from="1564494894171" duration="4166000" />
       <workItem from="1564534015563" duration="14688000" />
-      <workItem from="1564626109247" duration="1329000" />
+      <workItem from="1564626109247" duration="2809000" />
+      <workItem from="1564667331038" duration="403000" />
+      <workItem from="1564667999150" duration="9913000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式案例">
       <created>1564141706598</created>
@@ -452,39 +536,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44816000" />
+    <option name="totallyTimeSpent" value="56612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13675214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21001221" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29285714" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32959184" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32967034" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2863248" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
@@ -494,9 +556,33 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29285714" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27857143" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32959184" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32967034" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21001221" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32959184" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32959184" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27857143" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -528,394 +614,417 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/human/NuWa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/human/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/authorityManage/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/configShape.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/shape/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/authorityManage/Adminstrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/authorityManage/UserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/frurits/SimpleFactoryClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/configEncrypt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/configTV.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/tv/XMLUtilTV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/Base64Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar!/javax/crypto/Cipher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="200" selection-start-line="200" selection-end-line="200" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/security/Security.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="395" column="38" selection-start-line="395" selection-start-column="38" selection-end-line="395" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/security/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar!/com/sun/net/ssl/internal/ssl/Provider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/CipherCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="580" selection-start-line="580" selection-end-line="580" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/EncryptFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/Encrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/security/Key.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="150" column="18" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/AESEncrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="27" column="61" selection-start-line="21" selection-start-column="4" selection-end-line="27" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/encrypt/RSAEncrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/security/KeyPairGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="367" column="16" selection-start-line="367" selection-start-column="16" selection-end-line="367" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/ObserverManagerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/RoleCheckObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/UserCheckObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="463">
-            <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/FastFood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/BeautifulGirl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/KFCFastFood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/StartClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/ProcessVerifySubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/factory/eat/MFastFood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/CustomerObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/MagazineSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/principle/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/AbstractVerifySubject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/Factory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/Observer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/example/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/observer/example/EnvCheckObserver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CreditCardPayType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/VoucherPayType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CashPayType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CreditCardFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/VoucherFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/PayType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/CashFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/Basketball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/abstractFactory/config_pay.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/PayFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/abstractFactory/config_ball.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/Football.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/pay/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/BasketballFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/BallFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/tv/FootballFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/DatabaseLogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/abstractFactory/config_log.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/FileLogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/LogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/FileLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/DatabaseLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/log/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/util/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding>
+            <element signature="e#59#60#0" expanded="true" />
+            <element signature="e#82#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="112" column="4" lean-forward="true" selection-start-line="112" selection-start-column="4" selection-end-line="116" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2194">
+          <caret line="181" column="72" lean-forward="true" selection-start-line="181" selection-start-column="72" selection-end-line="181" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1670">
+          <caret line="452" column="4" lean-forward="true" selection-start-line="452" selection-start-column="4" selection-end-line="452" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/javax/accessibility/Accessible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/awt/ItemSelectable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="185" column="22" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/awt/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="108" column="30" lean-forward="true" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1721">
+          <caret line="600" column="19" selection-start-line="600" selection-end-line="601" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="91" column="29" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="29" />
+          <folding>
+            <element signature="e#20484#20485#0" expanded="true" />
+            <element signature="e#20520#20521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WListStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/WList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lw/base/abstractFactory/collection/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
