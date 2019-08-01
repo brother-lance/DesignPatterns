@@ -7,9 +7,9 @@ package cn.lw.base.observer.example;
  * 创建时间：2019-07-26 15:46
  * 创 建 人：Lance.WU
  */
-public  abstract class AbstractVerifySubject implements  Subject {
+public abstract class AbstractVerifySubject implements Subject {
 
-   private ObserverManagerFactory factory = new ObserverManagerFactory();
+    private ObserverManagerFactory factory = new ObserverManagerFactory();
 
     @Override
     public void addObserver(Observer o) {

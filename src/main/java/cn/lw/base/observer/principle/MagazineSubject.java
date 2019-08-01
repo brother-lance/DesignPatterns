@@ -41,7 +41,7 @@ public class MagazineSubject implements Subject {
     }
 
     // notify Magazine new version
-    public void publish(){
+    public void publish() {
         // new version
         this.version++;
         // notify

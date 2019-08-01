@@ -7,7 +7,7 @@ package cn.lw.base.observer.example;
  * 创建时间：2019-07-26 16:26
  * 创 建 人：Lance.WU
  */
-public class EnvCheckObserver implements  Observer {
+public class EnvCheckObserver implements Observer {
 
     @Override
     public void check() {

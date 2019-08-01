@@ -24,5 +24,6 @@ public class Demo {
         FastFood kfc = girl.choose("KFC");
         kfc.produce();
 
+
     }
 }

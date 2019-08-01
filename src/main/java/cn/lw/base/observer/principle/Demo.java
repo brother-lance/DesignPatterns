@@ -18,7 +18,6 @@ public class Demo {
         Observer one = new CustomerObserver("A");
         Observer two = new CustomerObserver("A");
         Observer three = new CustomerObserver("A");
-
         subject.addObserver(one);
         subject.addObserver(two);
         subject.addObserver(three);

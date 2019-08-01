@@ -7,14 +7,14 @@ package cn.lw.base.observer.principle;
  * 创建时间：2019-07-26 15:24
  * 创 建 人：Lance.WU
  */
-public class CustomerObserver implements  Observer {
+public class CustomerObserver implements Observer {
 
     // observer name
     private String name;
 
     private int version;
 
-    public CustomerObserver(String name){
+    public CustomerObserver(String name) {
         this.name = name;
     }
 
@@ -26,7 +26,7 @@ public class CustomerObserver implements  Observer {
 
     }
 
-    public void buy(){
+    public void buy() {
         System.out.println(name + "购买了第" + version + "期的杂志");
     }
 }
