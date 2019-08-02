@@ -1,4 +1,4 @@
-package cn.lw.base.abstractFactory.tv;
+package cn.lw.base.abstractFactory.ball;
 
 import cn.lw.base.abstractFactory.util.XmlUtil;
 

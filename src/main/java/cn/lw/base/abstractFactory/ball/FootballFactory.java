@@ -1,4 +1,4 @@
-package cn.lw.base.abstractFactory.tv;
+package cn.lw.base.abstractFactory.ball;
 
 /**
  * 项目名称：DesignPatterns
@@ -7,11 +7,11 @@ package cn.lw.base.abstractFactory.tv;
  * 创建时间：2019-08-01 22:53
  * 创 建 人：Lance.WU
  */
-public class BasketballFactory extends BallFactory {
+public class FootballFactory extends BallFactory {
 
     @Override
     Ball make() {
-        System.out.println("篮球工厂生产了篮球");
-        return new Basketball();
+        System.out.println("足球工厂生产了足球");
+        return new Football();
     }
 }
