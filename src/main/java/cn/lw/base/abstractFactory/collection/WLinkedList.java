@@ -27,5 +27,4 @@ public class WLinkedList<E> implements WList<E> {
         return new WListStr<>(index);
     }
 
-
 }
